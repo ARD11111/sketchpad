@@ -4,15 +4,19 @@
 }
 #container{
 background-color: white;
-border-radius: 10px;
+border-radius: 30px;
+border: none;
+padding: 10px;
 }
  body{
   background-color: #BAC095 ;
  }
+
 #button-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 button{
   padding: 10px 15px;
@@ -21,6 +25,19 @@ button{
   background-color: #3D4127;
   border: none;
   border-radius: 5px;
-  margin-left: 10px;
+  margin:  0px 20px;
+  cursor: pointer;
+  
+
+}
+label{
+  margin: 0px 5px 0 15px;
+  color: #3D4127;
+  font-weight: bold;
+  font-size: 20px;
+}
+#erase,
+#colorPicker{
+  cursor:pointer;
 
 }
