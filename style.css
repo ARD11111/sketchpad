@@ -1,3 +1,26 @@
+*{
+  box-sizing: border-box;
+  
+}
 #container{
-  border: 2px solid red;
+background-color: white;
+border-radius: 10px;
+}
+ body{
+  background-color: #BAC095 ;
+ }
+#button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  padding: 10px 15px;
+  color:white;
+  font-weight: bold;
+  background-color: #3D4127;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+
 }
