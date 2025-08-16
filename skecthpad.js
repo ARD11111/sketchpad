@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-container.setAttribute("style", "display:flex; flex-wrap:wrap; justify-content:center; margin:30px 20px; height:800px;");
+container.setAttribute("style", "display:flex; flex-wrap:wrap; justify-content:center; margin:30px 20px; height:750px;");
 
 let noOfSquares = 16;
 let box;
