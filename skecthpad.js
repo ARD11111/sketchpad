@@ -57,7 +57,7 @@ container.addEventListener("mouseover", (e) => {
 const customize = document.querySelector("#customize");
 customize.addEventListener("click", () => {
   removeGrid(noOfSquares);
-  let newGrid = Number(prompt("Enter the no. fo squares per side for the new grid (less than 100)", "16"));
+  let newGrid = Number(prompt("Enter the no. of squares per side for the new grid (less than 100)", "16"));
 
   if (newGrid > 100) {
     newGrid = prompt("enter a number less than 100");
