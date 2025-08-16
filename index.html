@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div id="button-container"><button id="customize">Customize Grid</button>
-  <button id="clear">Clear Grid</button></div>
+  <div id="button-container">
+    <button id="customize">Customize Grid</button>
+    <button id="clear">Clear</button>
+
+    <label for="colorPicker">Color: </label>
+    <input type="color" id="colorPicker">
+
+    <button id="erase">Eraser</button>
+  </div>
   <div id="container"></div>
 
   <script src="skecthpad.js"></script>
 
 </body>
+
 </html>
